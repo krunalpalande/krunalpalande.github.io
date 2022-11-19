@@ -65,7 +65,7 @@ import define from "https://api.observablehq.com/d/daa36401ab253377.js?v=3";
 new Runtime().module(define, name => {
   if (name === "chartContainer") return new Inspector(document.querySelector("#observablehq-chartContainer-b6792640"));
   return ["chart"].includes(name);
-});
+}); 
 </script>
 						</div>
 					</div>
