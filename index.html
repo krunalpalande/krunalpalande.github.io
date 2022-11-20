@@ -103,6 +103,17 @@
 		<p>
 					Draco is a constellation in the far northern sky. Its name is Latin for dragon. Draco is circumpolar (that is, never setting) for many observers in the northern hemisphere. It was one of the 48 constellations listed by the 2nd century astronomer Ptolemy.
 				</p>
+			<div id="observablehq-chart-646a737b"></div>
+<p>Credit: <a href="https://observablehq.com/d/67a81897d2cf933a">Collapsible Tree by Krunal Palande</a></p>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+import define from "https://api.observablehq.com/d/67a81897d2cf933a.js?v=3";
+new Runtime().module(define, name => {
+  if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-646a737b"));
+});
+</script>
 		</div>
 	</div>
 
