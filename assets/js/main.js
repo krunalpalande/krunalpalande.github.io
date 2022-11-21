@@ -223,7 +223,7 @@ $('.typing__module').each(function (index) {
 		stringsElement: self.find('.typed-strings')[0],
 		typeSpeed: 50,
 		backSpeed: 100,
-		backDelay:500,
+		fadeOut: true,
 		loop: true
 	},
 		    options = $.extend(optDefault, optData);
