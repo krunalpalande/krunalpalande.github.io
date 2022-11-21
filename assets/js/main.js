@@ -222,7 +222,7 @@ $('.typing__module').each(function (index) {
 		    optDefault = {
 		stringsElement: self.find('.typed-strings')[0],
 		typeSpeed: 50,
-		backSpeed: 0,
+		backSpeed: 100,
 		backDelay:500,
 		loop: true
 	},
