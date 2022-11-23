@@ -2396,7 +2396,7 @@ ul {
 
 .header.is-scroll {
     top: 0;
-    box-shadow: 0 1px 92px 0 rgba(0, 0, 0, .18);
+    box-shadow: none;
 }
 
 .header__inner {
