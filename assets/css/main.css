@@ -305,7 +305,7 @@ hr {
     vertical-align: middle;
     overflow: hidden;
     cursor: pointer;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Playfair Display", serif;
     line-height: 1;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -599,7 +599,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     line-height: 1.4;
     color: #333;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Playfair Display", serif;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -652,7 +652,7 @@ img {
 
 blockquote {
     position: relative;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Playfair Display", serif;
     font-size: 18px;
     border: 0;
     padding: 0;
@@ -732,7 +732,7 @@ ul {
 .about__subtitle {
     color: #333;
     margin-bottom: 30px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Playfair Display", serif;
     font-weight: 500;
 }
 
@@ -800,7 +800,7 @@ ul {
 
 .form__label {
     display: block;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Playfair Display", serif;
     text-transform: capitalize;
     color: #333;
     margin-bottom: 10px;
@@ -933,7 +933,7 @@ ul {
     display: block;
     position: relative;
     overflow: hidden;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Playfair Display", serif;
     font-size: 30px;
     font-weight: 600;
     color: #fff;
@@ -2044,7 +2044,7 @@ ul {
 
 .post-detail__cat {
     display: inline-block;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Playfair Display", serif;
     font-size: 12px;
     text-transform: uppercase;
     color: #ff594f;
@@ -2267,7 +2267,7 @@ ul {
 
 .work-detail__cat {
     display: inline-block;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Playfair Display", serif;
     text-transform: uppercase;
     color: #333;
     margin-bottom: 5px;
@@ -2811,7 +2811,7 @@ ul {
 }
 
 .sharebox__module .social-text {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Playfair Display", serif;
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
