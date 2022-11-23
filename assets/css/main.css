@@ -239,7 +239,7 @@ a {
 }
 
 a:hover {
-    text-decoration: line-through;
+    text-decoration: underline;
     color: #ff594f;
 }
 
@@ -314,7 +314,7 @@ hr {
 .md-btn:hover {
     background-color: #ebebeb;
     color: #000;
-    text-decoration: line-through;
+    text-decoration: underline;
 }
 
 .md-btn[disabled] {
