@@ -1,9 +1,9 @@
 
 TITLE: 
-Architect - 100% Fully Responsive Free HTML5 Bootstrap Template
+Closest - Fully Responsive Free HTML5 template
 
 AUTHOR:
-DESIGNED & DEVELOPED by FreeHTML5.co
+DESIGNED & DEVELOPED by FREEHTML5.co
 
 Website: http://freehtml5.co/
 Twitter: http://twitter.com/fh5co
@@ -39,12 +39,5 @@ http://daneden.me/animate
 jQuery Waypoint
 https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
 
-Flexslider
-http://flexslider.woothemes.com/
-
-Sticky Kit
-http://leafo.net/sticky-kit/
-
 Demo Images:
 http://unsplash.com
-
