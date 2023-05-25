@@ -13,8 +13,15 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "Switzer";
+  src: url("fonts/Switzer/Switzer-Regular.eot");
+  src: url("fonts/Switzer/Switzer-Regular.woff") format("woff"),
+       url("fonts/Switzer/Switzer-Regular.ttf") format("truetype");
+}
 body {
-  font-family: "IBM Plex Mono", sans-serif;
+  font-family: "Switzer-Regular", sans-serif;
   font-size: 13px;
   line-height: 20px;
   color: #363636;
