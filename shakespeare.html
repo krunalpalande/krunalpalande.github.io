@@ -122,6 +122,15 @@
   src="https://observablehq.com/embed/d1e7fb2be4bc51e6@2064?cells=viewof+dataKey%2CbubbleChart"></iframe>
             <iframe width="100%" height="684" frameborder="0"
   src="https://observablehq.com/embed/396532bba520cdde?cells=chart"></iframe>
+            <div id="observablehq-chart-11f3ba89"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+import define from "https://api.observablehq.com/d/396532bba520cdde.js?v=4";
+new Runtime().module(define, name => {
+  if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-11f3ba89"));
+});
+</script>
             <div class="ae-grid ae-grid--collapse">
           <div class="ae-grid__item item-lg--auto"><img src="assets/img/project-1.jpg" alt="Shakespeare"></div>
                   <div class="item-meta">
