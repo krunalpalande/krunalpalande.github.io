@@ -112,12 +112,20 @@
       </div>
       <div class="ae-container-fluid ae-container-fluid--inner">     
   <p>William Shakespeare, the Bard of Avon, is renowned for his rich, complex characters and intricate plots. However, his portrayal of gender roles and identities has garnered significant interest, particularly in contemporary times. By examining Shakespeare's works through a data lens, we can uncover fascinating insights into his treatment of gender. This article delves into how Shakespeare portrayed male and female characters, their prominence in his plays, and the implications of these portrayals in the context of Elizabethan and Jacobean societies.</p>
-          <iframe width="100%" height="581" frameborder="0"
-  src="https://observablehq.com/embed/d1e7fb2be4bc51e6@2064?cells=viewof+dataKey%2CbubbleChart"></iframe>
-            <iframe width="100%" height="684" frameborder="0"
-  src="https://observablehq.com/embed/396532bba520cdde?cells=chart"></iframe>
-            <iframe width="100%" height="527" frameborder="0"
-  src="https://observablehq.com/embed/@bayre/splitting-the-bunch?cells=toggle%2Cchart"></iframe>
+          <div id="observablehq-viewof-selectedGenres-073e2194"></div>
+<div id="observablehq-bubbleChartEnd-073e2194"></div>
+<p>Credit: <a href="https://observablehq.com/@krunal/shakespeare">Shakespeare by Krunal Palande</a></p>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+import define from "https://api.observablehq.com/@krunal/shakespeare.js?v=4";
+new Runtime().module(define, name => {
+  if (name === "viewof selectedGenres") return new Inspector(document.querySelector("#observablehq-viewof-selectedGenres-073e2194"));
+  if (name === "bubbleChartEnd") return new Inspector(document.querySelector("#observablehq-bubbleChartEnd-073e2194"));
+  return ["filteredData","renderBubbleChart"].includes(name);
+});
+</script>
         </div>
     </section>
     <footer class="ae-container-fluid rk-footer ">
