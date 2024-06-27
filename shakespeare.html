@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <title>Krunal Palande</title>
+    <title>Nook Studio | Gender in Shakespeare's Plays</title>
     <link rel="icon" type="image/svg+xml" href="assets/img/urku-ico.svg">
     <link rel="stylesheet" href="assets/css/aurora-pack.min.css">
     <link rel="stylesheet" href="assets/css/aurora-theme-base.min.css">
@@ -32,16 +32,25 @@
             <li class="rk-menu__item"><a href="portfolio.html" class="rk-menu__link">Work</a>
               <nav class="rk-menu__sub">
                 <ul class="rk-container">
-                  <li class="rk-menu__item"><a href="portfolio.html" class="rk-menu__link">Data Stories</a></li>
-                  <li class="rk-menu__item"><a href="portfolio-alt.html" class="rk-menu__link">Dashboards</a></li>
-                  <li class="rk-menu__item"><a href="portfolio-raw.html" class="rk-menu__link">Data Animation</a></li>
-                  <li class="rk-menu__item"><a href="portfolio-masonry.html" class="rk-menu__link">Trainings</a></li>
+                  <li class="rk-menu__item"><a href="portfolio.html" class="rk-menu__link">Flex</a></li>
+                  <li class="rk-menu__item"><a href="portfolio-alt.html" class="rk-menu__link">Switch</a></li>
+                  <li class="rk-menu__item"><a href="portfolio-raw.html" class="rk-menu__link">Static</a></li>
+                  <li class="rk-menu__item"><a href="portfolio-masonry.html" class="rk-menu__link">Masonry</a></li>
                 </ul>
               </nav>
             </li>
-            <li class="active rk-menu__item"><a href="blog.html" class="rk-menu__link">About</a>
+            <li class="rk-menu__item"><a href="blog.html" class="rk-menu__link">Blog</a>
             </li>
-            <li class="rk-menu__item"><a href="contact.html" class="rk-menu__link">Contact</a>
+            <li class="active rk-menu__item"><a href="#0" class="rk-menu__link">Pages</a>
+              <nav class="rk-menu__sub">
+                <ul class="rk-container">
+                  <li class="rk-menu__item"><a href="about.html" class="rk-menu__link">About</a></li>
+                  <li class="rk-menu__item"><a href="documentation.html" class="rk-menu__link">Documentation</a></li>
+                  <li class="rk-menu__item"><a href="design-styles.html" class="rk-menu__link">Design Styles</a></li>
+                </ul>
+              </nav>
+            </li>
+            <li class="rk-menu__item"><a href="contact.html" class="rk-menu__link">Contact Us</a>
             </li>
           </ul>
           <form class="rk-search">
@@ -55,93 +64,67 @@
         </nav>
       </div>
     </header>
+    <style>
+      .hash-link {
+        position: relative;
+      }
+      .hash-link:before {
+        content: '#';
+        opacity: 0;
+        position: absolute;
+        right: 100%;
+        transform: translatex(.25em);
+        transition: .3s;
+      }
+      .hash-link:hover:before {
+        opacity: 1;
+        transform: translatex(0);
+      }
+      
+      .layout-ctrl-input:checked + .demo-switch {
+        color: #a0a0a0;
+      }
+      .demo-switch {
+        cursor: pointer;
+        display: none;
+        height: 32px;
+        transition: color .3s;
+        width: 28px;
+      }
+      .demo-switch:hover {
+        color: #a0a0a0;
+      }
+      .demo-switch svg {
+        height: 100%;
+        width: 100%;
+      }
+      
+      @media (min-width: 40em) {
+        .demo-switch {
+          display: inline-block !important;
+        }
+      }
+      
+    </style>
     <section class="ae-container-fluid ae-container-fluid--full rk-main">
-     <div class="item-inside__meta">
-        <h1 class="ae-u-bolder rk-portfolio-title ">Gender in Shakespeare's Plays: An Exploratory Data-Driven Analysis.</h1>
+      <div class="item-inside__meta">
+        <h1 class="ae-u-bolder rk-portfolio-title ">Gender in Shakespeare's Plays</h1>
       </div>
-      </header>
-      <div class="ae-container-fluid ae-container-fluid--inner rk-portfolio--inner">
-        <div class="ae-grid ae-grid--collapse au-xs-ptp-1">
-          <div class="ae-grid__item item-lg-5 au-lg-ptp-1">
-           <h4 class="ae-u-bolder">Welcome to my Nook!</h4>
-            <p class="ae-eta">Shakespeare’s plays are windows into the social structures of his era. He depicted the ingrained gender roles of Elizabethan society, but also subverted these norms at times.</p>
-            <p>In King Lear, the titular character's decline into madness and vulnerability exposes the frailty of patriarchal authority. In the same play, Cordelia, his youngest daughter, offers a counterpoint to this decline by embodying integrity and defiance against patriarchal expectations.</p>
-          </div>
-          <div class="ae-grid__item item-lg-6 item-lg--offset-1"><img src="assets/img/post-inner-1.jpg" alt="Urku Portfolio"></div>
-        </div>
-             <div class="ae-grid ae-grid--collapse au-xs-ptp-1 au-xs-pbp-1">
-          <div class="ae-grid__item item-lg-8 item-lg--offset-2">
-            <h4 class="ae-u-bolder">Data + Design + Storytelling</h4>
-            <p class="ae-eta">I combine design, information, and UX to create compelling and memorable information experiences. My mission is to demystify complex issues by transforming data into intuitive and interactive designs that inform and engage.</p>
-            <p>In histories and tragedies, his gender roles were often conventional, and with a much lesser male female character ratio than in his comedies. In comedies, the female roles were bigger, and playful with the conventions and stereotypes.</p>
-          <div id="observablehq-viewof-selectedGenres-8e6dfa65"></div>
-<div id="observablehq-bubbleChartEnd-8e6dfa65"></div>
+      <div class="ae-container-fluid ae-container-fluid--inner">     
+  <p>William Shakespeare, the Bard of Avon, is renowned for his rich, complex characters and intricate plots. However, his portrayal of gender roles and identities has garnered significant interest, particularly in contemporary times. By examining Shakespeare's works through a data lens, we can uncover fascinating insights into his treatment of gender. This article delves into how Shakespeare portrayed male and female characters, their prominence in his plays, and the implications of these portrayals in the context of Elizabethan and Jacobean societies.</p>
+          <div id="observablehq-viewof-selectedGenres-073e2194"></div>
+<div id="observablehq-bubbleChartEnd-073e2194"></div>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
 <script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
 import define from "https://api.observablehq.com/@krunal/shakespeare.js?v=4";
 new Runtime().module(define, name => {
-  if (name === "viewof selectedGenres") return new Inspector(document.querySelector("#observablehq-viewof-selectedGenres-8e6dfa65"));
-  if (name === "bubbleChartEnd") return new Inspector(document.querySelector("#observablehq-bubbleChartEnd-8e6dfa65"));
+  if (name === "viewof selectedGenres") return new Inspector(document.querySelector("#observablehq-viewof-selectedGenres-073e2194"));
+  if (name === "bubbleChartEnd") return new Inspector(document.querySelector("#observablehq-bubbleChartEnd-073e2194"));
   return ["filteredData","renderBubbleChart"].includes(name);
 });
 </script>
-          </div>
-          </div>
-        <div class="ae-grid ae-grid--collapse">
-          <div class="ae-grid__item item-lg-6"><img src="assets/img/post-inner-2.jpg" alt="Urku Portfolio"></div>
-          <div class="ae-grid__item item-lg-5 item-lg--offset-1 au-lg-ptp-1">
-            <p class="ae-u-bolder">I'm Krunal</p>
-            <p>For the past decade, I’ve been working in world of data visualization, storytelling and information design.</p>
-            <p>This is a creative space where I make complex things easy to understand. If you have data, information or stories that need bringing to life, I can help.</p>
-          </div>
         </div>
-        <div class="ae-grid ae-grid--alt au-lg-ta-left au-xs-ptp-1">
-          <div class="ae-grid__item--alt item-lg-4"><span class="ae-u-boldest">Visualisations.</span>
-            <p>I help you find and communicate the stories in your data by using the best practices to create clear and convincing visualizations.</p>
-            <span class="ae-u-boldest">Reports and Presentations.</span>
-            <p>We can handle the production of longer documents, including data visualization and graphic design. We can help you focus your narrative and choose the right visuals.</p>
-          </div>
-          <div class="ae-grid__item--alt item-lg-4"><span class="ae-u-boldest">Dashboards.</span>
-            <p>Sed quam odio, blandit sit amet dapibus id, aliquet sollicitudin enim. </p><span class="ae-u-boldest">Data Products.</span>
-            <p>Morbi hendrerit laoreet lectus a fringilla.</p>
-          </div>
-          <div class="ae-grid__item--alt item-lg-4"><span class="ae-u-boldest">Interactives.</span>
-            <p>Sed quam odio, blandit sit amet dapibus id, aliquet sollicitudin enim. </p><span class="ae-u-boldest">Data Animation.</span>
-            <p>Morbi hendrerit laoreet lectus a fringilla.</p>
-          </div>
-            <p class="au-flex au-pt-4 group-buttons"><a href="portfolio.html" class="au-mt-4 arrow-button arrow-button--right arrow-button--out">Selected Works<span class="arrow-cont">
-            <svg>
-              <use xlink:href="assets/img/symbols.svg#arrow"></use>
-            </svg></span></a></p>
-        </div>
-        <div class="ae-grid ae-grid--collapse au-xs-ptp-1">
-          <div class="ae-grid__item item-lg-8 item-lg--offset-2">
-            <h4 class="ae-u-bolder">Trainings.</h4>
-            <p class="ae-eta">Informed by practice and theory, I love to share how we do information design and data visualization. I will make sure that you leave with knowledge that will change the way you see and present your data.</p>
-            <p>I offer trainings that can last from one hour to one day and executive coaching that can last three days. I also teach Data Design at the NMIMS School of Design, Mumbai.This training fills this gap by presenting good practices of data visualization that lead to graphs that are honest, clear, helpful and efficient. This training presents general principles applicable to all data visualization tools. The material is based on what science teaches us about the surprising skills of the eyes and human brain to identify patterns, variations, outliers and trends at a glance. The training material is filled with real world examples taken from management settings or public and media communications with graphs.</p>
-          </div>
-        </div>
-        <div class="ae-grid ae-grid--collapse inner-box-3">
-          <div class="ae-grid__item item-lg-10 item-lg--offset-1">
-            <blockquote class="au-xs-ta-center">
-              <p class="ae-delta au-italic">“Graphs are dynamic, dramatic. They may epitomize an epoch, each dot a fact, each slope an event, each curve a history.”</p>
-              <footer> 
-                <p class="ae-theta">By <span class="ae-u-bolder">Henry D. Hubbard</span></p>
-              </footer>
-            </blockquote>
-          </div>
-        </div>
-        <div class="ae-grid ae-grid--collapse au-xs-ptp-1">
-          <div class="ae-grid__item item-lg-8 item-lg--offset-2">
-            <p>Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
-          </div>
-        <div class="ae-grid ae-grid--collapse au-xs-ptp-1">
-          <div class="ae-grid__item item-lg-12"></div>
-        </div>
-      </div>
-    </section>
-            </article>
     </section>
     <footer class="ae-container-fluid rk-footer ">
       <div class="ae-grid ae-grid--collapse">
@@ -154,21 +137,50 @@ new Runtime().module(define, name => {
             <li class="rk-menu__item"><a href="contact.html" class="rk-menu__link">Contact</a>
             </li>
           </ul>
-          <p class="rk-footer__text rk-footer__copy "> <span class="ae-u-bold">© </span><span class="ae-u-bolder">2024 Krunal Palande</span>All Right Reserved.</p>
+          <p class="rk-footer__text rk-footer__copy "> <span class="ae-u-bold">© </span><span class="ae-u-bolder">2015 URKU PORTFOLIO </span>All Right Reserved.</p>
         </div>
         <div class="ae-grid__item item-lg-4 au-xs-ta-center"><a href="#0" class="rk-social-btn ">
             <svg>
-              <use xlink:href="assets/img/symbols.svg#icon-linkedin"></use>
+              <use xlink:href="assets/img/symbols.svg#icon-facebook"></use>
             </svg></a><a href="#0" class="rk-social-btn ">
             <svg>
-              <use xlink:href="assets/img/symbols.svg#icon-instagram"></use>
+              <use xlink:href="assets/img/symbols.svg#icon-twitter"></use>
+            </svg></a><a href="#0" class="rk-social-btn ">
+            <svg>
+              <use xlink:href="assets/img/symbols.svg#icon-pinterest"></use>
+            </svg></a><a href="#0" class="rk-social-btn ">
+            <svg>
+              <use xlink:href="assets/img/symbols.svg#icon-tumblr"></use>
             </svg></a></div>
-              <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right">
-          <p class="rk-footer__text rk-footer__contact "> <span class="ae-u-bold">Email: </span><span class="ae-u-bolder"> <a href="#0" class="rk-dark-color ">krunal@nookstudio.in </a></span></p>
+        <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right">
+          <p class="rk-footer__text rk-footer__contact "> <span class="ae-u-bold">Email: </span><span class="ae-u-bolder"> <a href="#0" class="rk-dark-color ">contact@urkuportfolio.com </a></span></p>
+          <p class="rk-footer__text rk-footer__by">Theme by <a href="http://pixeden.com" class="ae-u-bolder">Pixeden.</a></p>
         </div>
       </div>
     </footer>
     <script src="assets/js/svg4everybody.min.js"></script>
     <script>svg4everybody();</script>
+    <script src="assets/js/main.min.js"></script>
+    <script src="assets/js/pe-navscroll.min.js"></script>
+    <script>
+      /// navScroll init
+      peNavScroll.init({
+        nav:'.rk-navigation',
+        class:'active',
+        duration: 500,
+        hashChange: true,
+        offset: 50,
+        allLinks: true,
+        easingFunction: easing.easeInOutCubic
+      });
+      
+      //- Select Code
+      var pres = document.querySelectorAll('pre');
+      [].slice.call(pres).forEach(function(elem, index){
+        pres[index].addEventListener('click', function(){
+          SelectText(this)
+        })
+      })
+    </script>
   </body>
 </html>
